@@ -1,6 +1,12 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import "./App.css";
-import ToDoWithReducer from './components/reducer/ToDoWithReducer';
+// import CustomInput from './components/hook/CustomInput';
+import RefCounterProblem from './components/hook/RefCounterProblem';
+// import FocusDemo from './components/hook/FocusDemo';
+// import RefCounter from './components/hook/RefCounter';
+// import StopWatch from './components/hook/StopWatch';
+// import ToDoListWithContext from './components/context/reducerWithContext/ToDoListWithContext';
+// import ToDoWithReducer from './components/reducer/ToDoWithReducer';
 // import CustomReducer from './components/reducer/CustomReducer';
 // import ReducerCounter from './components/reducer/ReducerCounter';
 // import ContextDemo from './components/context/ContextDemo';
@@ -74,7 +80,13 @@ function App() {
 			{/* <ContextDemo /> */}
 			{/* <ReducerCounter /> */}
 			{/* <CustomReducer /> */}
-			<ToDoWithReducer />
+			{/* <ToDoWithReducer /> */}
+			{/* <ToDoListWithContext /> */}
+			{/* <RefCounter /> */}
+			{/* <StopWatch /> */}
+			{/* <FocusDemo /> */}
+			{/* <CustomInput /> */}
+			<RefCounterProblem />
     	</div>
   	);
 }
